@@ -1,0 +1,173 @@
+body {
+  background: rgb(224,227,231);
+}
+
+nav {
+  background: rgb(205,219,221);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.link {
+  padding: 10px 40px;
+  text-decoration: none;
+  color: #3d3b3c;
+  font-family: 'Michroma', sans-serif;
+  font-weight: bolder;
+}
+
+.link:hover {
+  background: rgb(157, 197, 205, 0.4);
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+.slides-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgb(205,219,221);
+  padding: 25px;
+  border: 3px black;
+  margin-top: 40px;
+  margin-bottom:  40px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.slides {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.btn-slides {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-arrow {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: rgb(224,227,231);
+}
+
+.btn-arrow:hover {
+  background: rgb(157, 197, 205, 0.4);
+  border-radius: 4px;
+}
+.brand {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #3d3b3c;
+  font-family: 'Michroma', sans-serif;
+  font-size: 25px;
+}
+
+.glasses-buttons {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.change {
+  background: rgb(205,219,221);
+  border: 1px #3d3b3c solid;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: 'Michroma', sans-serif;
+}
+
+.change:hover {
+  background: rgb(157, 197, 205, 0.4);
+  border-radius: 4px;
+  color: rgb(109, 202, 216);
+  font-size: 15px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.product-card {
+  padding: 15px;
+  flex-grow: 1;
+  flex-basis: 20%;
+  margin-left: 60px;
+}
+
+.product-info {
+  font-family: 'Michroma', sans-serif;
+font-size: 10px;
+}
+
+.shipping {
+  display: flex;
+  justify-content: center;
+}
+
+.shipping-text {
+    color: #3d3b3c;
+    font-family: 'Michroma', sans-serif;
+    margin-left: 15px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 15px;
+}
+
+.button-show {
+    color: #3d3b3c;
+    font-family: 'Michroma', sans-serif;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-show:hover {
+  background: rgb(157, 197, 205, 0.4);
+  font-size: 14px;
+}
+
+.cont-title {
+  display: flex;
+  justify-content: center;
+}
+
+.cont-text {
+  color: #3d3b3c;
+  font-family: 'Michroma', sans-serif;
+  margin-left: 15px;
+}
+
+.cont-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.facebook, .instagram, .email {
+  border: none;
+  margin: 5px;
+}
+
+.facebook:hover, .instagram:hover, .email:hover {
+  background: rgb(205,219,221);
+}
+
+.cont-pic {
+  display: flex;
+ 
+  flex-wrap: wrap;
+}
