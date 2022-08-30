@@ -4,7 +4,7 @@ import image from './image.avif';
 
 function Shipping() {
 
-const [shipping, setShipping] = useState(dataShipping);
+const [shipping] = useState(dataShipping);
 const [showText, setShowText] = useState(false);
 
 const showTextClick = (element) => {

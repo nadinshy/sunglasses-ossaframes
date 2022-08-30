@@ -5,7 +5,7 @@ import { dataSlides } from './dataSlides';
 function Home() {
 
     const [girl, setGirl] = useState(0);
-    const {id, picture} = dataSlides[girl];
+    const {picture} = dataSlides[girl];
     console.log(dataSlides[girl])
 
     const left = () => {
